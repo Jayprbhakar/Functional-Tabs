@@ -1,0 +1,121 @@
+* {
+    background-color: chocolate;
+    font-style: normal;
+    font-family: monospace;
+}
+
+.btn {
+    color: rgb(235, 11, 11);
+    border-radius: 5px;
+    padding: 12px 25px 12px 25px;
+    background-color: white;
+    border-color: white;
+    border-width: 2px;
+    font-weight: 500;
+    font-size: larger;
+    
+}
+
+.inner-box-1 , h2, p{
+    background-color: black;
+    color: white;
+    border: 2px black solid;
+    border-radius: 5px;
+    /* width: 50%; */
+    text-align: center;
+}
+
+#main-box {
+    border: 2px black solid;
+    padding: 10px;
+    margin-top: 7px;
+    width: 50%;
+    height: 50%;
+    background-color: hsla(12, 91%, 42%, 0.3);
+    visibility: visible;
+}
+
+#main-box1, main-box2, main-box3 {
+    border: 2px black solid;
+    padding: 10px;
+    margin-top: 7px;
+    width: 50%;
+    height: 50%;
+    background-color: hsla(12, 91%, 42%, 0.3);
+    visibility: hidden;
+}
+#main-box2 {
+    border: 2px black solid;
+    padding: 10px;
+    margin-top: 7px;
+    width: 50%;
+    height: 50%;
+    background-color: hsla(12, 91%, 42%, 0.3);
+    visibility: hidden;
+}
+#main-box3 {
+    border: 2px black solid;
+    padding: 10px;
+    margin-top: 7px;
+    width: 50%;
+    height: 50%;
+    background-color: hsla(12, 91%, 42%, 0.3);
+    visibility: hidden;
+}
+
+/* 
+# JavaScript DOM Topics for Hide/Show and Tabs Project
+
+## 1. DOM Basics
+- What is the DOM
+- DOM Tree structure
+- Accessing the `document` object
+
+## 2. Selecting Elements
+- document.getElementById()
+- document.querySelector()
+- document.querySelectorAll()
+
+## 3. Event Handling
+- addEventListener()
+- click events
+- event object
+
+## 4. CSS Manipulation with JavaScript
+- element.style property
+- display: none
+- display: block
+- visibility property
+
+## 5. Class Manipulation
+- element.classList
+- classList.add()
+- classList.remove()
+- classList.toggle()
+- classList.contains()
+
+## 6. Working with Multiple Elements
+- NodeList
+- forEach() loop
+- Looping through selected elements
+
+## 7. Data Attributes
+- data-* attributes in HTML
+- dataset property in JavaScript
+
+## 8. Building a Tabs Component
+- Tab button structure
+- Tab content sections
+- Showing selected tab
+- Hiding other tabs
+
+## 9. Active State Handling
+- Adding active class to selected tab
+- Removing active class from others
+
+## 10. Mini Project Practice
+- Build a tab system
+- Hide/Show sections
+- Add active tab styling
+- Optional: add smooth transitions
+*/

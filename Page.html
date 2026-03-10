@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="design.css">
+</head>
+<body>
+    <div>
+        <h3>Home</h3>
+        <div>
+            <button class="btn" onclick="anim()" id="tb1">Tab 1</button>
+            <button class="btn" onclick="animTwo()" id="tb2">Tab 2</button>
+            <button class="btn" onclick="animThree()" id="tb3">Tab 3</button>
+            <button class="btn" onclick="animFour()" id="tb4">Tab 4</button>
+        </div>
+    </div>
+
+    <div id="main-box">
+        <div class="box-1">
+            <h2>welcome back brother and sister. You are most welcome in our big farm.</h2>
+            <p>We appreaciate you came here to visit us and also i want to give you a japan gift. Which always connect us whether you are in any other country</p>
+            <div class="inner-box-1">
+                <h2>First Tab Body</h2>
+            </div>
+        </div>
+    </div>
+
+    <div id="main-box1">
+        <div class="box-1">
+            <h2>welcome back brother and sister. You are most welcome in our big farm.</h2>
+            <p>We appreaciate you came here to visit us and also i want to give you a japan gift. Which always connect us whether you are in any other country</p>
+            <div class="inner-box-1">
+                <h2>Second Tab Body</h2>
+            </div>
+        </div>
+    </div>
+
+    <div id="main-box2">
+        <div class="box-1">
+            <h2>welcome back brother and sister. You are most welcome in our big farm.</h2>
+            <p>We appreaciate you came here to visit us and also i want to give you a japan gift. Which always connect us whether you are in any other country</p>
+            <div class="inner-box-1">
+                <h2>Third Tab Body</h2>
+            </div>
+        </div>
+    </div>
+
+    <div id="main-box3">
+        <div class="box-1">
+            <h2>welcome back brother and sister. You are most welcome in our big farm.</h2>
+            <p>We appreaciate you came here to visit us and also i want to give you a japan gift. Which always connect us whether you are in any other country</p>
+            <div class="inner-box-1">
+                <h2>Fourth Tab Body</h2>
+            </div>
+        </div>
+    </div>
+
+    <script>
+
+        function anim(){
+            let tb = document.getElementById("main-box");
+            let divTAG = document.getElementsByClassName("main-box");
+
+            if (tb.style.visibility === "visible"){
+                tb.style.visibility = "hidden";
+                divTAG.style.display = "none"
+            } else {
+                tb.style.visibility = "visible";
+            }
+        }
+
+        function animTwo(){
+            let tb = document.getElementById("main-box1");
+            if (tb.style.visibility === "hidden"){
+                tb.style.visibility = "visible";
+                
+            } else {
+                tb.style.visibility = "hidden";
+            }
+        }
+
+        function animThree(){
+            let tb = document.getElementById("main-box2");
+            if (tb.style.visibility === "hidden"){
+                tb.style.visibility = "visible";
+            } else {
+                tb.style.visibility = "hidden";
+            }
+        }
+
+        function animFour(){
+            let tb = document.getElementById("main-box3");
+            if (tb.style.visibility === "hidden"){
+                tb.style.visibility = "visible";
+            } else {
+                tb.style.visibility = "hidden";
+            }
+        }
+
+
+        
+    </script>
+
+    
+    
+
+</body>
+</html>
